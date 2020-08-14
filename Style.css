@@ -1,0 +1,114 @@
+﻿body {
+    background-image: url("IMG/Jack.gif") !important;
+    background-attachment: scroll;
+    background-position: initial;
+    background-size: cover;
+}
+h1 {
+    color: #FF0000;
+    text-align: center;
+    font-weight: 900;
+}
+h2 {
+    color: #838B8B;
+    text-align: justify;
+    font-size: 15px;
+}
+
+label{
+    color: darkgray;
+    text-align: center;
+}
+input {
+    background-color: #838B8B;
+    font-size: 7px;
+    color: red;
+    text-align: left;
+    height: auto;
+}
+select {
+    background-color: #838B8B;
+    color: red;
+}
+div.scrollmenu {
+    background-color: #9C9C9C;
+    overflow: auto;
+    white-space: nowrap;
+}
+    div.scrollmenu a {
+        display: inline-block;
+        color: red;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+    }
+div.scrollmenu a:hover {
+    background-color: white;
+}
+h5 {
+    font-size: 30px;
+    color: #696969;
+    background-color: #87CEEB;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: auto;
+}
+footer{
+    color: slategray;
+    text-align: right;
+}
+audio {
+    height: auto;
+    width: 900px;
+    color: lightgray;
+    background-color: white;
+    opacity: 0.6;
+}
+
+
+textarea {
+    background-color: #838B8B;
+    border: 0,5px;
+    font-size: 7px;
+    color: red;
+    text-align: left;
+    height: 300px;
+    width: 600px;
+    opacity: 0.9;
+}
+
+table {
+    border: double;
+    color: red;
+    border-color: red;
+    width: 900px;
+    margin: 100px;
+    font: 300;
+    font-size: 40px;
+}
+.myButton {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+.myButton:hover {
+        background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+        background-color: #f24437;
+}
+
+.myButton:active {
+        position: relative;
+        top: 1px;
+}

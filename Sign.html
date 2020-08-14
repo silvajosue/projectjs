@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Style.css" />
+    <title>
+        Cadastro
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+<body>
+    <audio autoplay loop controls>
+        <source src="MP3/vale.mp3" type="audio/mp3" loop="true" />
+    </audio>
+    <h1>Cadastro de novo usuario!</h1>
+    <h2>Novo cadastro:</h2>
+    <form>
+        <label>Nome*:</label>
+        <input type="text" id="nome" placeholder="Nome" autocomplete="off" />
+        <br />
+        <br />
+        <label>Sobrenome*:</label>
+        <input type="text" id="sobrenome" placeholder="Sobrenome" autocomplete="off" />
+        <br />
+        <br />
+        <label>Sexo:</label>
+        <select>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Outros</option>
+        </select>
+        <br />
+        <br />
+        <label>Nascimento:</label>
+        <input type="date" id="data"  autocomplete="off" />
+        <br />
+        <br />
+        <label>Usuario*:</label>
+        <input type="text" id="novoUsuario" placeholder="Nome de usuario" autocomplete="off" />
+        <br />
+        <br />
+        <label>Senha*:</label>
+        <input type="password" id="senha" placeholder="Insira a senha" autocomplete="off" checked />
+        <label>Confirme a senha*:</label>
+        <input type="password" id="confirmSenha" placeholder="Confirme a senha " autocomplete="off" />
+        <br />
+        <br />
+        <label>Email*:</label>
+        <input type="email" id="email" placeholder="Email" autocomplete="off" />
+        <label>Confirme o email*:</label>
+        <input type="email" id="confirmEmail" placeholder="Confirme o email" autocomplete="off" />
+        <br />
+        <br />
+        <input type="checkbox" id="check" />
+        <label>Li e estou de acordo com os termos de utilização.</label>
+    </form>
+    <input class="btn btn-primary" type="button" value="Enviar" id="Submit">
+    
+
+    <script type="text/javascript" src="JS/Login.js"></script>
+</body>
+</html>

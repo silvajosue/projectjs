@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>O futuro começa aqui!</title>
+</head>
+<body>
+    <div class="scrollmenu">
+        <a href="Home.html">Home</a>
+        <a href="News.html">Noticias</a>
+        <a href="Contact.html">Contate-nos</a>
+        <a href="About.html">Sobre</a>
+        <button id="exit" class="btn btn-link">Sair</button>
+    </div>
+    <audio autoplay loop controls>
+        <source src="MP3/armin.mp3" type="audio/mp3" loop="true" />
+    </audio>
+
+    <h1>Somos uma comunidade que preza por novidades no mundo da musica eletrônica* e todos os festivais que estão por acontecer em nossa região!</h1>
+    <h2>*Entre outros gêneros musicais</h2>
+    <h3>Crie uma lista com suas musicas favoritas</h3>
+    <br />
+    <form method="post" action="http://localhost:3000/script">
+        <input id="music" type="text" name="Musica" placeholder="Musica" />
+        <br />
+        <input id="band" type="text" name="BandaDJ" placeholder="Banda/DJ" />
+        <br />
+        <input type="submit" id="create" class="myButton" value="enviar">
+    </form>
+    <button id="listar" class="myButton">Criar/lista</button>
+    <table id="bla-bla">
+    </table>
+    <script type="text/javascript" src="JS/Login.js"></script>
+    <script type="text/javascript" src="JS/Script.js"></script>
+</body>
+</html>

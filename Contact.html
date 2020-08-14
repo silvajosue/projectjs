@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title></title>
+</head>
+<body>
+    <div class="scrollmenu">
+        <a href="Home.html">Home</a>
+        <a href="News.html">Noticias</a>
+        <a href="Contact.html">Contate-nos</a>
+        <a href="About.html">Sobre</a>
+        <button id="exit" class="btn btn-link">Sair</button>
+    </div>
+    <audio autoplay loop controls>
+        <source src="MP3/nave.mp3" type="audio/mp3" loop="true" />
+    </audio>
+    
+ <form>
+     <br />
+     <br />
+     <label>Nome:</label>
+     <input type="text" placeholder="Nome" id="contactName" autocomplete="off" />
+     <br />
+     <br />
+     <label>Email:</label>
+     <input type="email" placeholder="seuemail@seuemail.com" id="contactEmail" autocomplete="off"/>
+     <br />
+     <br />
+     <label>Comentario:</label>
+     <br />
+     <textarea name="Comentarios" placeholder="Esse site é de mais, o melhor que ja vi :)" autocomplete="off"></textarea>
+ </form>
+    <button type="button" id="sSubmit" class="btn btn-primary">Enviar</button>
+
+    <script type="text/javascript" src="JS/Login.js"></script>
+    <script src="JS/jQuery.js"></script>
+</body>
+</html>
